@@ -1,0 +1,73 @@
+COMMAND: C:\VCAST\clicast.exe -e TEST environment script create C:/Demo/Project/Project/environment/TEST/TEST.env
+DIRECTORY: C:/Demo/Project/Project/build/2684436655
+TIME: 2023-07-26 13:47:50
+-----------------------------Process Environment------------------------------
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+PROGRAMFILES=C:\Program Files
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\Demo\Project\Project
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+SYSTEMDRIVE=C:
+PROGRAMDATA=C:\ProgramData
+ONEDRIVECONSUMER=C:\Users\kimsa\OneDrive
+VCAST_SOURCEROOT=C:/Demo/Src
+PROGRAMFILES(X86)=C:\Program Files (x86)
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+PROGRAMW6432=C:\Program Files
+WINDIR=C:\WINDOWS
+ONEDRIVE=C:\Users\kimsa\OneDrive
+SYSTEMROOT=C:\WINDOWS
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+PATH=C:\VCAST\MinGW\bin;C:\VCAST;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\pclp;C:\Users\kimsa\AppData\Local\Microsoft\WindowsApps;C:\pclp;;C:\Users\kimsa\AppData\Local\Programs\Microsoft VS Code\bin
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2023
+**Version 23.sp1 (05/21/23)
+    Processing options file c:\Demo\Project\Project\build\2684436655\CCAST_.CFG
+    Opening Environment
+    Determining Size/Range Information
+    Opening Parameter/Global File
+    Opening Types File
+    Running Test with command: c:\Demo\Project\Project\build\2684436655\TEST\UUT_INST.EXE
+        Running Command: C:/Users/kimsa\.vcastProcessMonitorLogs\159080001_Command
+        Command Returned Exit Code: 0: 159080001
+    Building Master Min Mid Max data.
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Building Script File
+    Script Building Completed
+COMMAND: C:\VCAST\clicast.exe -e TEST test script create C:/Demo/Project/Project/environment/TEST/TEST.tst
+DIRECTORY: C:/Demo/Project/Project/build/2684436655
+TIME: 2023-07-26 13:47:57
+-----------------------------Process Environment------------------------------
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+PROGRAMFILES=C:\Program Files
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\Demo\Project\Project
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+SYSTEMDRIVE=C:
+PROGRAMDATA=C:\ProgramData
+ONEDRIVECONSUMER=C:\Users\kimsa\OneDrive
+VCAST_SOURCEROOT=C:/Demo/Src
+PROGRAMFILES(X86)=C:\Program Files (x86)
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+PROGRAMW6432=C:\Program Files
+WINDIR=C:\WINDOWS
+ONEDRIVE=C:\Users\kimsa\OneDrive
+SYSTEMROOT=C:\WINDOWS
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+PATH=C:\VCAST\MinGW\bin;C:\VCAST;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\pclp;C:\Users\kimsa\AppData\Local\Microsoft\WindowsApps;C:\pclp;;C:\Users\kimsa\AppData\Local\Programs\Microsoft VS Code\bin
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2023
+**Version 23.sp1 (05/21/23)
+    Processing options file c:\Demo\Project\Project\build\2684436655\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Creating Script File
+    Building Test Case Script
+    Test Case Script Created
+    Script processing completed

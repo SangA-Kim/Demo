@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+ <issue>
+<file line='3' column='0'>C:\Demo\Src/CheckFuelLevel.h</file>
+<message id='970'>use of modifier or type &apos;int&apos; outside of a typedef [MISRA 2012 Directive 4.6, advisory]</message>
+</issue>
+
+ <issue>
+<file line='4' column='0'>C:\Demo\Src/CheckFuelLevel.h</file>
+<message id='970'>use of modifier or type &apos;int&apos; outside of a typedef [MISRA 2012 Directive 4.6, advisory]</message>
+</issue>
+
+ <issue>
+<file line='3' column='0'>C:\Demo\Src\CheckFuelLevel.c</file>
+<message id='970'>use of modifier or type &apos;int&apos; outside of a typedef [MISRA 2012 Directive 4.6, advisory]</message>
+</issue>
+
+ <issue>
+<file line='5' column='3'>C:\Demo\Src\CheckFuelLevel.c</file>
+<message id='970'>use of modifier or type &apos;int&apos; outside of a typedef [MISRA 2012 Directive 4.6, advisory]</message>
+</issue>
+
+ <issue>
+<file line='9' column='6'>C:\Demo\Src\CheckFuelLevel.c</file>
+<message id='904'>return statement before end of function &apos;checkFuelLevel&apos; [MISRA 2012 Rule 15.5, advisory]</message>
+</issue>
+
+ <issue>
+<file line='13' column='6'>C:\Demo\Src\CheckFuelLevel.c</file>
+<message id='904'>return statement before end of function &apos;checkFuelLevel&apos; [MISRA 2012 Rule 15.5, advisory]</message>
+</issue>
+
+ <issue>
+<file line='3' column='4'>C:\Demo\Src\CheckFuelLevel.c</file>
+<message id='765'>external symbol &apos;checkFuelLevel&apos; could be made static [MISRA 2012 Rule 8.7, advisory]</message>
+</issue>
+
+</doc>
