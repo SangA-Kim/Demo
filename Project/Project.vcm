@@ -14,6 +14,13 @@
   </config>
   <project-id>1690247502</project-id>
   <factor-config-options>0</factor-config-options>
+  <environment name="CHECKFUELLEVEL" type="UNIT">
+    <language>1</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>Project/build/3721434196</original-environment-directory>
+    </config>
+  </environment>
   <environment name="TEST" type="UNIT">
     <language>1</language>
     <is-monitored>0</is-monitored>
@@ -31,6 +38,8 @@
         </config>
       </config>
     </compiler>
-    <testsuite name="UnitTest"/>
+    <testsuite name="UnitTest">
+      <environment name="CHECKFUELLEVEL"/>
+    </testsuite>
   </compiler>
 </project>
