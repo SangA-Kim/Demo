@@ -1,0 +1,34 @@
+Trace Output for RGW: 
+
+TraceHandler.__init__
+2023-07-31 21:39:20  ||  CsvGateway.init_options
+2023-07-31 21:39:20  ||  Setting 'csv_path' is not present.
+2023-07-31 21:39:33  ||  Field(s) retrieved from CSV file:
+Key
+ID
+Module
+Title
+Description
+2023-07-31 21:39:33  ||  SUCCESS: Connected to the CSV file.
+2023-07-31 21:39:37  ||  CsvGateway.init_options
+2023-07-31 21:39:37  ||  Setting 'key_attribute' is not present.
+2023-07-31 21:39:37  ||  Setting 'id_attribute' is not present.
+2023-07-31 21:39:37  ||  Setting 'title_attribute' is not present.
+2023-07-31 21:39:37  ||  Setting 'description_attribute' is not present.
+2023-07-31 21:39:37  ||  Setting 'filter_on' is not present.
+2023-07-31 21:39:37  ||  Setting 'filter_attribute' is not present.
+2023-07-31 21:39:37  ||  Setting 'filter_attribute_value' is not present.
+2023-07-31 21:39:37  ||  Field(s) retrieved from CSV file:
+Key
+ID
+Module
+Title
+Description
+2023-07-31 21:40:06  ||  Looking for configured attribute names.
+2023-07-31 21:40:06  ||  Using field index 0 for field type key.
+2023-07-31 21:40:06  ||  Using field index 1 for field type id.
+2023-07-31 21:40:06  ||  Using field index 3 for field type title.
+2023-07-31 21:40:06  ||  Using field index 4 for field type description.
+2023-07-31 21:40:06  ||  Recording data for requirement FR1,  "Return 0 if retrun of getFuelLevel is less th...
+2023-07-31 21:40:06  ||  Recording data for requirement FR2,  "Return 1 if retrun of getFuelLevel is greater...
+2023-07-31 21:40:06  ||  Import successful.

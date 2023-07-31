@@ -1,6 +1,6 @@
 COMMAND: C:\VCAST\clicast.exe -e UT_CHECKFUELLEVEL environment script create C:/Demo/Project/Project/environment/UT_CHECKFUELLEVEL/UT_CHECKFUELLEVEL.env
 DIRECTORY: C:/Demo/Project/Project/build/4177734519
-TIME: 2023-07-31 21:07:12
+TIME: 2023-07-31 21:35:48
 -----------------------------Process Environment------------------------------
 COMSPEC=C:\WINDOWS\system32\cmd.exe
 PROGRAMFILES=C:\Program Files
@@ -29,8 +29,8 @@ VectorCAST Copyright (C) 1993 - 2023
     Opening Parameter/Global File
     Opening Types File
     Running Test with command: c:\Demo\Project\Project\build\4177734519\UT_CHECKFUELLEVEL\UUT_INST.EXE
-        Running Command: C:/Users/kimsa\.vcastProcessMonitorLogs\42560001_Command
-        Command Returned Exit Code: 0: 42560001
+        Running Command: C:/Users/kimsa\.vcastProcessMonitorLogs\132920001_Command
+        Command Returned Exit Code: 0: 132920001
     Building Master Min Mid Max data.
     Opening Parameter/Global File
     Opening Types File
@@ -39,7 +39,7 @@ VectorCAST Copyright (C) 1993 - 2023
     Script Building Completed
 COMMAND: C:\VCAST\clicast.exe -e UT_CHECKFUELLEVEL test script create C:/Demo/Project/Project/environment/UT_CHECKFUELLEVEL/UT_CHECKFUELLEVEL.tst
 DIRECTORY: C:/Demo/Project/Project/build/4177734519
-TIME: 2023-07-31 21:07:21
+TIME: 2023-07-31 21:35:58
 -----------------------------Process Environment------------------------------
 COMSPEC=C:\WINDOWS\system32\cmd.exe
 PROGRAMFILES=C:\Program Files
