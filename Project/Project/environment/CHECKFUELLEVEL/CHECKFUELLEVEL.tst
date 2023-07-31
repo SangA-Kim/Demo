@@ -1,0 +1,39 @@
+-- VectorCAST 23.sp1 (05/21/23)
+-- Test Case Script
+--
+-- Environment    : CHECKFUELLEVEL
+-- Unit(s) Under Test: CheckFuelLevel
+--
+-- Script Features
+TEST.SCRIPT_FEATURE:C_DIRECT_ARRAY_INDEXING
+TEST.SCRIPT_FEATURE:CPP_CLASS_OBJECT_REVISION
+TEST.SCRIPT_FEATURE:MULTIPLE_UUT_SUPPORT
+TEST.SCRIPT_FEATURE:REMOVED_CL_PREFIX
+TEST.SCRIPT_FEATURE:MIXED_CASE_NAMES
+TEST.SCRIPT_FEATURE:STATIC_HEADER_FUNCS_IN_UUTS
+TEST.SCRIPT_FEATURE:VCAST_MAIN_NOT_RENAMED
+--
+
+-- Unit: CheckFuelLevel
+
+-- Subprogram: checkFuelLevel
+
+-- Test Case: checkFuelLevel.001
+TEST.UNIT:CheckFuelLevel
+TEST.SUBPROGRAM:checkFuelLevel
+TEST.NEW
+TEST.NAME:checkFuelLevel.001
+TEST.REQUIREMENT_KEY:FR1
+TEST.VALUE:uut_prototype_stubs.getFuelLevel.return:9
+TEST.EXPECTED:CheckFuelLevel.checkFuelLevel.return:0
+TEST.END
+
+-- Test Case: checkFuelLevel.002
+TEST.UNIT:CheckFuelLevel
+TEST.SUBPROGRAM:checkFuelLevel
+TEST.NEW
+TEST.NAME:checkFuelLevel.002
+TEST.REQUIREMENT_KEY:FR2
+TEST.VALUE:uut_prototype_stubs.getFuelLevel.return:11
+TEST.EXPECTED:CheckFuelLevel.checkFuelLevel.return:1
+TEST.END
