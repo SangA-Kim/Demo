@@ -1,16 +1,15 @@
 #include "CheckFuelLevel.h"
 
-INT32 checkFuelLevel(void)
+int checkFuelLevel(void)
 {
-   INT32 fuelLevel = getFuelLevel();
-   INT32 status;
+   int fuelLevel = getFuelLevel();
+   
    if(fuelLevel < 10)
    {
-      status = 0;
+      return 0;
    }
    else
    {
-      status = 1;
+      return 1;
    }
-   return status;
 }
