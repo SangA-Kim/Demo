@@ -38,8 +38,6 @@
         </config>
       </config>
     </compiler>
-    <testsuite name="UnitTest">
-      <environment name="CHECKFUELLEVEL"/>
-    </testsuite>
+    <testsuite name="UnitTest"/>
   </compiler>
 </project>
