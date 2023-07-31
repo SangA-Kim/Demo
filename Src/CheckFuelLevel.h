@@ -1,7 +1,7 @@
 #ifndef CHECK_FUEL_LEVEL_H
 #define CHECK_FUEL_LEVEL_H
-
-int getFuelLevel(void);
-int checkFuelLevel(void);
+typedef int INT32;
+INT32 getFuelLevel(void);
+INT32 checkFuelLevel(void);
 
 #endif //CHECK_FUEL_LEVEL_H
