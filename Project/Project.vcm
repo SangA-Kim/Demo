@@ -28,13 +28,6 @@
       <original-environment-directory>Project/build/2684436655</original-environment-directory>
     </config>
   </environment>
-  <environment name="UT_CHECKFUELLEVEL" type="UNIT">
-    <language>1</language>
-    <is-monitored>0</is-monitored>
-    <config>
-      <original-environment-directory>Project/build/4177734519</original-environment-directory>
-    </config>
-  </environment>
   <compiler>
     <compiler>
       <name>VectorCAST_MinGW_C</name>
@@ -45,8 +38,6 @@
         </config>
       </config>
     </compiler>
-    <testsuite name="UnitTest">
-      <environment name="UT_CHECKFUELLEVEL"/>
-    </testsuite>
+    <testsuite name="UnitTest"/>
   </compiler>
 </project>
